@@ -3,7 +3,7 @@
  * Connects React frontend to Express backend REST APIs
  */
 
-const API_BASE_URL = '/api'
+const API_BASE_URL = 'https://rvu-sports-portal-backend.onrender.com/api'
 
 const getAuthHeaders = () => {
   const token = localStorage.getItem('rvu_sports_token')
