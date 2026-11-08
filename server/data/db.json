@@ -1,0 +1,310 @@
+{
+  "users": [
+    {
+      "id": "usr_1",
+      "email": "aman.varma@rvu.edu.in",
+      "password": "$2a$10$a7RBv0PGtNgmE3pwXbkYl.96kxbnQi8yEYDmkj1aK.u17BLPeCjX6",
+      "name": "Aman Varma",
+      "role": "student",
+      "department": "School of Computer Science & Engineering",
+      "createdAt": "2026-11-08T07:27:52.398Z"
+    },
+    {
+      "id": "usr_2",
+      "email": "coach.sharma@rvu.edu.in",
+      "password": "$2a$10$a7RBv0PGtNgmE3pwXbkYl.96kxbnQi8yEYDmkj1aK.u17BLPeCjX6",
+      "name": "Coach Rajesh Sharma",
+      "role": "staff",
+      "department": "Department of Physical Education & Athletics",
+      "createdAt": "2026-11-08T07:27:52.400Z"
+    },
+    {
+      "id": "usr_3",
+      "email": "kavya.nair@rvu.edu.in",
+      "password": "$2a$10$a7RBv0PGtNgmE3pwXbkYl.96kxbnQi8yEYDmkj1aK.u17BLPeCjX6",
+      "name": "Kavya Nair",
+      "role": "student",
+      "department": "School of Business",
+      "createdAt": "2026-11-08T07:27:52.400Z"
+    },
+    {
+      "id": "usr_1794123254546",
+      "email": "amansantoshvarma@rvu.edu.in",
+      "password": "$2a$10$SesGq8/WrpB1LUdSSvOuWO/QegTHcrJQRYcXza9iXxptNr2NAGkHC",
+      "name": "Amansantoshvarma",
+      "role": "student",
+      "department": "RV University Varsity Club",
+      "createdAt": "2026-11-08T07:34:14.546Z"
+    }
+  ],
+  "sports": [
+    {
+      "id": "cricket",
+      "name": "Cricket",
+      "icon": "🏏",
+      "themeClass": "sport-cricket",
+      "tagline": "Varsity & Club Teams",
+      "squadSize": 22,
+      "captain": "Aditya Sharma",
+      "ground": "RVU Turf Ground",
+      "nextMatch": "vs Bangalore University — Nov 14",
+      "recentForm": "W - W - L - W",
+      "roster": [
+        {
+          "name": "Aditya Sharma",
+          "role": "Captain / All-rounder"
+        },
+        {
+          "name": "Sameer Kulkarni",
+          "role": "Opening Batsman"
+        },
+        {
+          "name": "Rahul Joshi",
+          "role": "Fast Bowler"
+        },
+        {
+          "name": "Pranav Rao",
+          "role": "Wicket Keeper"
+        },
+        {
+          "name": "Varun Reddy",
+          "role": "Spin Bowler"
+        }
+      ]
+    },
+    {
+      "id": "football",
+      "name": "Football",
+      "icon": "⚽",
+      "themeClass": "sport-football",
+      "tagline": "Men & Women Squads",
+      "squadSize": 25,
+      "captain": "Rohan Varma",
+      "ground": "RV Sports Complex",
+      "nextMatch": "vs PES FC — Nov 18",
+      "recentForm": "W - W - W - D",
+      "roster": [
+        {
+          "name": "Rohan Varma",
+          "role": "Captain / Forward"
+        },
+        {
+          "name": "Devendra Singh",
+          "role": "Midfielder"
+        },
+        {
+          "name": "Farhan Ali",
+          "role": "Center Back"
+        },
+        {
+          "name": "Arun Kumar",
+          "role": "Goalkeeper"
+        },
+        {
+          "name": "Vikram Menon",
+          "role": "Winger"
+        }
+      ]
+    },
+    {
+      "id": "basketball",
+      "name": "Basketball",
+      "icon": "🏀",
+      "themeClass": "sport-basketball",
+      "tagline": "Inter-Collegiate Champions",
+      "squadSize": 15,
+      "captain": "Kavya Nair",
+      "ground": "RVU Indoor Court 1",
+      "nextMatch": "vs Christ Stars — Nov 22",
+      "recentForm": "W - L - W - W",
+      "roster": [
+        {
+          "name": "Kavya Nair",
+          "role": "Captain / Point Guard"
+        },
+        {
+          "name": "Ananya Deshmukh",
+          "role": "Shooting Guard"
+        },
+        {
+          "name": "Ritika Sen",
+          "role": "Small Forward"
+        },
+        {
+          "name": "Tanvi Hegde",
+          "role": "Power Forward"
+        },
+        {
+          "name": "Pooja Iyer",
+          "role": "Center"
+        }
+      ]
+    },
+    {
+      "id": "volleyball",
+      "name": "Volleyball",
+      "icon": "🏐",
+      "themeClass": "sport-volleyball",
+      "tagline": "South Zone Circuit",
+      "squadSize": 14,
+      "captain": "Nikhil Gowda",
+      "ground": "RVU Outdoor Court",
+      "nextMatch": "vs BMS Strikers — Nov 25",
+      "recentForm": "L - W - W - W",
+      "roster": [
+        {
+          "name": "Nikhil Gowda",
+          "role": "Captain / Setter"
+        },
+        {
+          "name": "Siddharth Patil",
+          "role": "Outside Hitter"
+        },
+        {
+          "name": "Chirag Shetty",
+          "role": "Middle Blocker"
+        },
+        {
+          "name": "Kiran Nayak",
+          "role": "Libero"
+        }
+      ]
+    },
+    {
+      "id": "badminton",
+      "name": "Badminton",
+      "icon": "🏸",
+      "themeClass": "sport-badminton",
+      "tagline": "Singles & Doubles Circuit",
+      "squadSize": 12,
+      "captain": "Sneha Patel",
+      "ground": "RVU Badminton Arena",
+      "nextMatch": "State University Open — Dec 02",
+      "recentForm": "W - W - W - W",
+      "roster": [
+        {
+          "name": "Sneha Patel",
+          "role": "Captain / Singles No. 1"
+        },
+        {
+          "name": "Manish Verma",
+          "role": "Men Singles"
+        },
+        {
+          "name": "Divya & Rashmi",
+          "role": "Women Doubles Pair"
+        },
+        {
+          "name": "Abhinav & Tarun",
+          "role": "Men Doubles Pair"
+        }
+      ]
+    }
+  ],
+  "tournaments": [
+    {
+      "id": "tourn_1",
+      "title": "RVU Inter-School Football Cup",
+      "sport": "Football",
+      "date": "Nov 18 - Nov 24, 2026",
+      "status": "Upcoming",
+      "statusClass": "status-upcoming",
+      "description": "16 university departments competing for the annual chancellor trophy at RV Sports Complex.",
+      "maxTeams": 16,
+      "registeredCount": 13,
+      "registeredAthletes": [
+        {
+          "userId": "usr_1",
+          "userName": "Aman Varma",
+          "userEmail": "aman.varma@rvu.edu.in",
+          "registeredAt": "2026-11-08T07:27:52.400Z"
+        },
+        {
+          "userId": "usr_1794123254546",
+          "userName": "Amansantoshvarma",
+          "userEmail": "amansantoshvarma@rvu.edu.in",
+          "registeredAt": "2026-11-08T07:34:33.549Z"
+        }
+      ]
+    },
+    {
+      "id": "tourn_2",
+      "title": "All-University Cricket League",
+      "sport": "Cricket",
+      "date": "Dec 01 - Dec 12, 2026",
+      "status": "Open",
+      "statusClass": "status-open",
+      "description": "T20 tournament featuring campus teams, alumni all-stars, and faculty exhibition matches.",
+      "maxTeams": 12,
+      "registeredCount": 10,
+      "registeredAthletes": [
+        {
+          "userId": "usr_1",
+          "userName": "Aman Varma",
+          "userEmail": "aman.varma@rvu.edu.in",
+          "registeredAt": "2026-11-08T07:28:11.638Z"
+        },
+        {
+          "userId": "usr_1794123254546",
+          "userName": "Amansantoshvarma",
+          "userEmail": "amansantoshvarma@rvu.edu.in",
+          "registeredAt": "2026-11-08T07:34:37.749Z"
+        }
+      ]
+    },
+    {
+      "id": "tourn_3",
+      "title": "South Zone Badminton Invitational",
+      "sport": "Badminton",
+      "date": "Dec 15 - Dec 18, 2026",
+      "status": "Scheduled",
+      "statusClass": "status-live",
+      "description": "Premier inter-collegiate knockout circuit for varsity singles and doubles players.",
+      "maxTeams": 32,
+      "registeredCount": 26,
+      "registeredAthletes": [
+        {
+          "userId": "usr_1",
+          "userName": "Aman Varma",
+          "userEmail": "aman.varma@rvu.edu.in",
+          "registeredAt": "2026-11-08T07:30:34.924Z"
+        },
+        {
+          "userId": "usr_1794123254546",
+          "userName": "Amansantoshvarma",
+          "userEmail": "amansantoshvarma@rvu.edu.in",
+          "registeredAt": "2026-11-08T07:34:38.933Z"
+        }
+      ]
+    }
+  ],
+  "matches": [
+    {
+      "id": "match_1",
+      "sportId": "cricket",
+      "opponent": "Bangalore University",
+      "date": "2026-10-20",
+      "score": "RVU 182/4 (20.0) vs BU 158/8 (20.0)",
+      "result": "Win",
+      "mvp": "Aditya Sharma (68 runs, 2 wkts)"
+    },
+    {
+      "id": "match_2",
+      "sportId": "football",
+      "opponent": "St. Joseph FC",
+      "date": "2026-10-24",
+      "score": "RVU 3 - 1 St. Joseph FC",
+      "result": "Win",
+      "mvp": "Rohan Varma (2 goals)"
+    },
+    {
+      "id": "match_3",
+      "sportId": "basketball",
+      "opponent": "Jain University",
+      "date": "2026-10-28",
+      "score": "RVU 72 - 68 Jain Univ",
+      "result": "Win",
+      "mvp": "Kavya Nair (24 pts, 8 ast)"
+    }
+  ]
+}
